@@ -7,6 +7,10 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
           {"firstName": "Jessy", "lastName": "Petter"}]}
 
 pprint(d["employees"][1]["lastName"])
-
 d["employees"][1]["lastName"]="Smooth"
 pprint(d["employees"][1]["lastName"])
+
+
+d["employees"].append({'firstName': 'Albert', 'lastName': 'Bert'})
+
+pprint(d)
