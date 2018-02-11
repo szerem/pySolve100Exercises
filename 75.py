@@ -1,5 +1,5 @@
 import platform
-import pandas
+# import pandas
 
 print(platform.python_version())
 
